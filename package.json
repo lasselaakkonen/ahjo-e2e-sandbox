@@ -1,0 +1,7 @@
+{
+  "name": "ahjo-e2e-sandbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "node-stack repro for PR #28 (corepack-enable pnpm after the nvm version switch)",
+  "packageManager": "pnpm@9.15.0"
+}
