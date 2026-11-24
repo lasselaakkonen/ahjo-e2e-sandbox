@@ -8,12 +8,16 @@
     "ghcr.io/devcontainers/features/node:1": {
       "version": "20"
     },
-    "ghcr.io/devcontainers/features/go:1": {}
+    "ghcr.io/devcontainers/features/go:1": {},
+    "ahjo/docker": {},
+    "ghcr.io/devcontainers-extra/features/ripgrep:1": {}
   },
   "postCreateCommand": "echo POST_CREATE_RAN > /tmp/ahjo-postcreate-marker",
   "customizations": {
     "ahjo": {
-      "forward_env": ["AHJO_E2E_TOKEN"]
+      "forward_env": [
+        "AHJO_E2E_TOKEN"
+      ]
     }
   }
 }
