@@ -10,7 +10,9 @@
     },
     "ghcr.io/devcontainers/features/go:1": {},
     "ahjo/docker": {},
-    "ghcr.io/devcontainers-extra/features/ripgrep:1": {}
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+      "packages": "tree"
+    }
   },
   "postCreateCommand": "echo POST_CREATE_RAN > /tmp/ahjo-postcreate-marker",
   "customizations": {
