@@ -9,10 +9,7 @@
       "version": "20"
     },
     "ghcr.io/devcontainers/features/go:1": {},
-    "ahjo/docker": {},
-    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-      "packages": "tree"
-    }
+    "ahjo/docker": {}
   },
   "postCreateCommand": "echo POST_CREATE_RAN > /tmp/ahjo-postcreate-marker",
   "customizations": {
